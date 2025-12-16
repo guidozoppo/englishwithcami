@@ -4,6 +4,7 @@ import Footer from "./components/commons/footer";
 import AboutPage from "./pages/about/about";
 import CoursesPage from "./pages/courses/courses";
 import CalendarPage from "./pages/calendar/calendar";
+import Calendar from "./pages/calendar/calendario";
 
 function App() {
   return (
@@ -14,7 +15,7 @@ function App() {
         <Routes>
           <Route path="/" element={<AboutPage />} />
           <Route path="/courses" element={<CoursesPage />} />
-          <Route path="/calendar" element={<CalendarPage />} />
+          <Route path="/calendar" element={<Calendar />} />
         </Routes>
       </main>
 

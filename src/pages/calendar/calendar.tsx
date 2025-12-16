@@ -14,7 +14,6 @@ const localizer = dateFnsLocalizer({
     locales,
 });
 
-// Horarios disponibles por día (0=domingo)
 const availableHoursByDay: Record<number, string[]> = {
     1: ["10:00", "11:00", "12:00", "13:00"],
     2: ["08:00", "09:00", "10:00", "11:00"],
@@ -36,6 +35,7 @@ export default function CalendarView() {
     const [currentView, setCurrentView] = useState(Views.MONTH);
 
     const handleSelectSlot = (slotInfo: any) => {
+        console.log
         if (currentView === Views.MONTH) {
             const day = slotInfo.start;
             setSelectedSlot({ start: new Date(day), end: new Date(day) });
