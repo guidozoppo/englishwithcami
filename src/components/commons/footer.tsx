@@ -7,14 +7,14 @@ export default function Footer() {
             <div className="max-w-6xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-10 text-center">
                 <div className="flex flex-col items-center space-y-4">
                     <img
-                        src="/img/logo.png"
+                        src="/logo.png"
                         alt="logo"
                         className="w-28 h-auto opacity-90"
                     />
 
                     <p className="max-w-sm text-gray-600 leading-relaxed">
                         Profesora de inglés dedicada a transformar el aprendizaje
-                        en una experiencia clara, sencilla y efectiva.  
+                        en una experiencia clara, sencilla y efectiva.
                         Ayuda a estudiantes a mejorar su comunicación,
                         ganar confianza y alcanzar nuevos objetivos académicos y profesionales.
                     </p>
